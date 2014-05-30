@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alerts!</title>
+	<link rel="stylesheet" href="css/alerts.css">
+
+	<style type="text/css">
+	h1, h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; }
+	</style>
+</head>
+<body>
+
+	<h1>Alerts!</h1>
+	
+	<div class="alert-message success">
+      	<strong>Sucesso!</strong> <span>testando uma mensagem</span>
+      	<button type="button">×</button>
+    </div>
+
+    <div class="alert-message info">
+      	<strong>Informação!</strong> <span>testando uma mensagem</span>
+      	<button type="button">×</button>
+    </div>
+
+    <div class="alert-message error">
+      	<strong>Erro!</strong> <span>testando uma mensagem</span>
+      	<button type="button">×</button>
+    </div>
+
+    <div class="alert-message warning">
+      	<strong>Atenção!</strong> <span>testando uma mensagem</span>
+      	<button type="button">×</button>
+    </div>
+
+	<h2>Clones</h2>
+
+	<div id="target-insert-clones"></div>
+
+	<br><br>
+
+	<button class="create-clone" data-clone="success">CLONE SUCCESS</button>
+	<button class="create-clone" data-clone="info">CLONE INFO</button>
+	<button class="create-clone" data-clone="error">CLONE ERROR</button>
+	<button class="create-clone" data-clone="warning">CLONE WARNING</button>
+	<button class="create-clone" data-clone="qualquer-coisa">CLONE QUALQUER COISA [ALERT INFO]</button>
+
+</body>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/alerts.js"></script> 
+
+</html>

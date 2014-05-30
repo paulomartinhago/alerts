@@ -1,0 +1,8 @@
+.alert-message { padding: 15px; margin: 20px 0 0; position: relative; font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; /*display: none;*/ }
+
+.alert-message.warning { color: #8a6d3b; border: 1px solid #faebcc; background-color: #fcf8e3; }
+.alert-message.error { color: #B94A47; border: 1px solid #eed3d7; background-color: #f2dede; }
+.alert-message.info { color: #3a87ad; border: 1px solid #bce8f1; background-color: #d9edf7; }
+.alert-message.success { color: #468847; border: 1px solid #d6e9c6; background-color: #dff0d8; }
+
+.alert-message button { margin: 0; padding: 0; border: 0; background: none; cursor: pointer; position: absolute; top: 12px; line-height: 20px; font-size: 22px; font-weight: bold; color: #000000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; right: 18px; opacity:0.2; -moz-opacity:0.2; filter:alpha(opacity=20); }
