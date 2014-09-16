@@ -1,4 +1,4 @@
-.alert-message { padding: 15px; margin: 20px 0 0; position: relative; font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; /*display: none;*/ }
+.alert-message { padding: 15px; margin: 20px 0 0; position: relative; font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; }
 
 .alert-message.warning { color: #8a6d3b; border: 1px solid #faebcc; background-color: #fcf8e3; }
 .alert-message.error { color: #B94A47; border: 1px solid #eed3d7; background-color: #f2dede; }
